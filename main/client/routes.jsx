@@ -1,7 +1,9 @@
 import React from 'react';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { mount } from 'react-mounter';
-import { Layout, WelcomeComponent} from './app.jsx';
+
+import { Layout } from '../../imports/client/components/Layout.jsx';
+import { WelcomeComponent } from '../../imports/client/components/WelcomeComponent.jsx';
 
 FlowRouter.route('/', {
   action() {
